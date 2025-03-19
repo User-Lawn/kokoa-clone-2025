@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to KaKaoTalk</title>
+    <title>Welcome to Kokoa Clone</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/6e0e636720.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="status-bar">
@@ -20,9 +25,18 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    <script
-      src="https://kit.fontawesome.com/6e0e636720.js"
-      crossorigin="anonymous"
-    ></script>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your account.
+      </p>
+    </header>
+    <form class="login-form">
+      <input type="text" placeholder="Email or Phone Number" required />
+      <input type="password" placeholder="Password" required />
+      <input type="submit" value="Log In" />
+    </form>
+    <a href="#" class="login-form__link">Forgot Password?</a>
+    <a href="#" class="login-form__link">Create Kokoa Account</a>
   </body>
 </html>
